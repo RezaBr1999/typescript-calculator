@@ -13,3 +13,53 @@ body {
   background-color: #454545;
   color: #fff;
 }
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: #151515;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.display {
+  background-color: #151515;
+  height: 150px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #343434;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#clear {
+  background-color: #ff5959;
+}
+
+#equal {
+  background-color: #66ff7f;
+  color: #000;
+}
+
+.green {
+  color: #66ff7f;
+}
