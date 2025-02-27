@@ -49,6 +49,9 @@ body {
   border-radius: 5px;
   cursor: pointer;
   user-select: none;
+  outline: 0;
+  border: 0;
+  color: #fff;
 }
 
 #clear {
