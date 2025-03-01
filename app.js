@@ -7,3 +7,6 @@ if (currentOperation) {
 }
 let result = document.getElementById("result");
 let operationResult = 0;
+let num1 = document.getElementById("num1");
+let num2 = document.getElementById("num2");
+let operator = document.getElementById("operator");
