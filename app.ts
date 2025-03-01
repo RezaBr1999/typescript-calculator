@@ -19,3 +19,16 @@ let num1: HTMLElement | null = document.getElementById("num1");
 let num2: HTMLElement | null = document.getElementById("num2");
 let operator: HTMLElement | null = document.getElementById("operator");
 
+function updateDisplay(
+  element: HTMLElement | null,
+  text: string,
+  replace: boolean = false
+) {
+  if (element) {
+    if (replace) {
+      element.innerHTML = text;
+    } else {
+      element.innerHTML += text;
+    }
+  }
+}

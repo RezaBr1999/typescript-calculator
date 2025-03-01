@@ -10,3 +10,13 @@ let operationResult = 0;
 let num1 = document.getElementById("num1");
 let num2 = document.getElementById("num2");
 let operator = document.getElementById("operator");
+function updateDisplay(element, text, replace = false) {
+    if (element) {
+        if (replace) {
+            element.innerHTML = text;
+        }
+        else {
+            element.innerHTML += text;
+        }
+    }
+}
