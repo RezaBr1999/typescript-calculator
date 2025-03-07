@@ -27,6 +27,11 @@ body {
   height: 150px;
 }
 
+#current-operation {
+  display: flex;
+  gap: 10px;
+}
+
 .buttons {
   display: flex;
   flex-direction: column;

@@ -2,21 +2,8 @@
 const operationArray = Array.from(document.querySelectorAll(".btn.operation"));
 const numberArray = Array.from(document.querySelectorAll(".btn.number"));
 let currentOperation = document.getElementById("current-operation");
-if (currentOperation) {
-    currentOperation.innerText = "0";
-}
 let result = document.getElementById("result");
 let operationResult = 0;
 let num1 = document.getElementById("num1");
 let num2 = document.getElementById("num2");
 let operator = document.getElementById("operator");
-function updateDisplay(element, text, replace = false) {
-    if (element) {
-        if (replace) {
-            element.innerHTML = text;
-        }
-        else {
-            element.innerHTML += text;
-        }
-    }
-}
